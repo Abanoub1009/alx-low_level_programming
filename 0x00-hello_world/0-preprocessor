@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="main.c"
-OUTPUT="main.o"
 gcc -c "main.c" -o "main.o"
