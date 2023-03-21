@@ -8,7 +8,7 @@
  * Return: always a
  */
 
-int _abs(a)
+int _abs(nta)
 {
 	if (a < 0)
 		a = -(a);
