@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_sign  - check the code.
  *
+ * @n: parameter is to be printed
  * Return: Always 0.
  */
-int main(void)
+int print_sign(int n)
 {
 int r;
 
