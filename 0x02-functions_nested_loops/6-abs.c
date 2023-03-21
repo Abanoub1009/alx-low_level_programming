@@ -3,12 +3,12 @@
 /**
  * _abs - checks for absolute value
  *
- * @a: parameter to be checked
+ * @a: parameter is to be checked
  *
  * Return: always a
  */
 
-int _abs(int)
+int _abs(a)
 {
 	if (a < 0)
 		a = -(a);
