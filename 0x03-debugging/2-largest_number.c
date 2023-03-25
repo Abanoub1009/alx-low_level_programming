@@ -28,11 +28,14 @@ else if (b > c && c > a)
 {
 largest = b;
 }
+else if (c > a && a > b)
+{
+largest = c;
+}
 else
 {
 largest = c;
 }
-printf("\n");
 
 return (largest);
 }
