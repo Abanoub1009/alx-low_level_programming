@@ -9,13 +9,16 @@
  */
 char *string_toupper(char *str)
 {
-char *new_str = (char *)malloc(strlen(str) + 1);
 int i = 0;
+
 while (str[i] != '\0')
 {
-new_str[i] = toupper(str[i]);
+if (str[i] >= 'a' && str[i] <= 'z')
+{
+str[i] = str[i] - 32;
+}
 i++;
 }
-new_str[i] = '\0';
-return (new_str);
+
+return (str);
 }
