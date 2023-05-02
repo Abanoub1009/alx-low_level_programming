@@ -3,6 +3,10 @@
 
 #include <stddef.h> /* for size_t */
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
